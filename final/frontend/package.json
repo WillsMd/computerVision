@@ -1,0 +1,20 @@
+{
+  "name": "computer-vision-web-app",
+  "version": "1.0.0",
+  "description": "A web application for face analysis, object detection, and filters using computer vision.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "author": "William Mdemu",
+  "license": "ISC"
+}
