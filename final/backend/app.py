@@ -21,6 +21,7 @@ def object_detection():
 
 @app.route('/api/apply-filters', methods=['POST'])
 def apply_filters():
+    print("yea")
     data = request.files['image']
     filter_type = request.form.get('filter_type', 'grayscale')
     result = apply_filter(data, filter_type)
